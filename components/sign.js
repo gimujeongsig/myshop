@@ -26,6 +26,7 @@ export default function Sign() {
                 label="ID"
                 placeholder="ID"
                 helperText="6-12자 이내 영문, 숫자 사용가능"
+                fullWidth
                 value={idValue}
                 onChange={handleIdChange}
                 ></TextField>
@@ -36,7 +37,8 @@ export default function Sign() {
                         label="Password"
                         type="password"
                         placeholder="Password"
-                        helperText="8-16자 이내 영문, 숫자, 특수문자 사용가능"
+                        helperText="8-16자 이내 영문, 숫자, 특수문자 사용가능" 
+                        fullWidth
                         >
                         </TextField>
                     </Fade>
