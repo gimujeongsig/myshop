@@ -1,0 +1,24 @@
+.wrapper {
+    width: 50vh;
+    height: 50vh;
+    background-color: whitesmoke;
+    opacity: 1;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.30), 0 1px 2px rgba(0,0,0,0.20);
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.wrapper:hover {
+    box-shadow: 0 30px 30px rgba(0,0,0,0.50), 0 1px 2px rgba(0,0,0,0.50);
+}
+.head {
+    margin-bottom: 15px;
+}
+.form {
+    margin-left: 50px;
+    margin-right: 50px;
+}
